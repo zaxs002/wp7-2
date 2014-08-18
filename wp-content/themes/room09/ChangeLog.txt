@@ -1,0 +1,764 @@
+------------------ VER 1.7.1 - Released on May, 12 - 2014 ---------------
+Added: Remove WP Admin bar on frontend for logged in users
+Fixed: Unclosed tags on pl_PL language files that cause issues when theme options are clicked
+Fixed: issue on variable products
+Fixed: out of date template in WooCommerce 2.1.8
+Fixed: wp admin bar on responsive
+
+UPDATED
+languages/*.*
+room09-child/style.css
+theme/functions-theme.php
+theme/hooks.php
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/panel/theme-options/general-settings.php
+woocommerce/checkout/review-order.php
+cache/google_fonts.json
+style.css
+
+------------------ VER 1.7.0 - Released on Apr 17, 2014 ---------------
+Added: support to WordPress 3.9
+Added: support to WooCommerce 2.1.7
+Fixed: grouped product template
+Fixed: editor in popup settings
+Fixed: tags in 'remove_script_version' localization string
+
+UPDATED:
+
+theme/woocommerce.php
+core/lib/yit/Type/Types/Textareaeditor.php
+woocommerce/single-product/add-to-cart/grouped.php
+theme/panel/theme-options/general-settings.php
+woocommerce/single-product/tabs/description.php
+woocommerce_2.0.x/single-product/tabs/description.php
+
+------------------ VER 1.6.2 - Released on Mar 18, 2014 ---------------
+Added: Pagination on [show_products] shortcode
+Added: Filters for same_cat param to prev and next post link on woocommerce single product.
+Fixed: WooCommerce 2.1.5 issues
+Fixed: Style WooCommerce Product Widget
+Fixed: Restored woocommerce featured images size and woocommerce responsive image (under WooCommerce > Settings > Products)
+Fixed: Css rule height instead of min-height in #header
+Fixed: Product thumbnails magnifier issue. Wrong Thumbnails scroll on single product page
+Fixed: Single product thumbnail lightbox
+Fixed: navigation on single product for woocommerce when $in_same_cat is true
+Updated: Revoluton Slider Plugin to Version 4.3.0
+
+UPDATED:
+
+core/functions-template.php
+core/yit/Css.php
+languages/*.*
+room09-child/style.css
+theme/plugins/revslider.zip
+theme/shortcodes-woocommerce.php
+theme/templates/shortcodes/show_products.php
+theme/woocommerce.php
+woocommerce/style.css
+woocommerce/single-product/nav-links.php
+woocommerce/single-product/product-image.php
+woocommerce/single-product/product-image-magnifier.php
+woocommerce/single-product/product-thumbnails.php
+woocommerce_2.0.x/single-product/product-image-magnifier.php
+style.css
+
+------------------ VER 1.6.1 - Released: Mar 07, 2014 ---------------
+Added: Support to WooCommerce 2.1.5
+Fixed: Android Landscape menu dropdown
+Fixed: Fix Checkbox Required in Contact Form
+
+UPDATED:
+
+languages/da_DK.mo
+languages/da_DK.po
+languages/de_DE.mo
+languages/de_DE.po
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/pl_PL.mo
+languages/pl_PL.po
+languages/sv_SE.mo
+languages/sv_SE.po
+languages/yit.pot
+core/assets/js/contact.js
+core/yit/Contact_Form.php
+theme/assets/css/contact_form.css
+theme/assets/js/contact.js
+theme/assets/js/unminified/contact.js
+theme/assets/js/unminified/yit/jquery.layout.js
+theme/assets/js/yit/jquery.layout.js
+woocommerce/single-product/product-attributes.php
+wpml-config.xml
+
+------------------ VER 1.6.0 - Released: Feb 21, 2014 ---------------
+Added: Support to WooCommerce 2.1.x
+Fixed: Placeholder Image dimensions for list shop layout
+Fixed: Add to cart Button for out of stock variable products
+Fixed: Payment Methods button on normal checkout
+Fixed: Variable product select
+Fixed: Form Login ( Firefox )
+
+UPDATED:
+
+languages/da_DK.mo
+languages/da_DK.po
+languages/de_DE.mo
+languages/de_DE.po
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/pl_PL.mo
+languages/pl_PL.po
+languages/sv_SE.mo
+languages/sv_SE.po
+languages/yit.pot
+room09-child/style.css
+core/assets/js/unminified/yit/jquery.yit_checkout.js
+core/assets/js/yit/jquery.yit_checkout.js
+core/assets/css/panel.css
+core/templates/admin/panel/notifier.php
+core/functions-core.php
+core/yit/Panel.php
+core/yit/Notifier.php
+theme/functions-template.php
+theme/templates/shortcodes/products_categories.php
+theme/templates/shortcodes/products_categories_slider.php
+theme/templates/shortcodes/products_slider.php
+theme/widgets/YIT_Widget_Best_Sellers.php
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/woocommerce.php
+theme/yit/Splash.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_General_settings.php
+theme/templates/shortcodes/show_products.php
+room09-child/woocommerce/*.*
+room09-child/woocommerce_2.0.x/*.*
+woocommerce/*.*
+woocommerce_2.0.x/*.*
+index.php
+style.css
+
+------------------ VER 1.5.0 ---------------
+Added: Compatibility to WordPress 3.8
+Added: German translation by Michał Jóźwiak
+Added: Polish translation by Michał Jóźwiak
+Added: support to FB Connect free plugin and integrated with the theme
+Updated: Revolution Slider Vers. 4.1.1
+Updated: Languages files
+Fixed: Shortcodes product_categories and product_categories_slider order options
+Fixed: Actions buttons moved always below the add to cart button
+Fixed: FAQ Shortcode did not reset the posts loop
+Fixed: Out of stock badge
+Fixed: Image bug in [image] lightbox shortcode
+Fixed: Removed console.log() in some JS files
+Fixed: Language files supported also in the child theme
+Fixed: Missing image remove_dark.png
+Fixed: Cart subtotal moved too below
+Fixed: Text with image widget had problems with the image URL when on SSL
+Fixed: Possible error with French and other translations
+Fixed: small CSS issues
+Fixed: Map margins in the contact page
+Fixed: Product actions works also when the add to cart is disabled on the single product page
+Fixed: %sku% fixed in Contact_Form.php
+Fixed: Single product images when the magnifier is disabled are now handled correctly
+Fixed: Performance improved
+Removed: CPT Unlimited show items in descending order
+
+UPDATED:
+cache/google_fonts.json
+core/assets/css/metaboxes.css
+core/assets/css/panel.css
+core/assets/css/tinymce.css
+core/lib/yit/Type/Types/Selecticon.php
+core/yit/CPT_Unlimited.php
+core/yit/Faq.php
+core/yit/Services.php
+core/yit/Testimonial.php
+core/functions-core.php
+core/lib/yit/Type/Types/Bgpreview.php
+core/lib/yit/Type/Types/Typography.php
+core/yit/Css.php
+core/yit/Image.php
+core/templates/admin/metaboxes/types/images.php
+core/load.php
+core/assets/css/shortcodes.css
+css/responsive.css
+js/jquery.custom.js
+js/unminified/jquery.custom.js
+languages/*
+room09-child/style.css
+theme/plugins.php
+theme/templates/shortcodes/products_categories_slider.php
+theme/templates/shortcodes/products_slider.php
+theme/shortcodes-woocommerce.php
+theme/templates/shortcodes/products_categories.php
+theme/plugins/yith_magnifier
+theme/plugins/yith_magnifier.zip
+theme/plugins/yith_wishlist
+theme/plugins/yith_wishlist.zip
+theme/plugins/revslider
+theme/yit/Splash.php
+theme/assets/images/fblogin_bg.png
+theme/assets/images/fblogin_icon.png
+theme/assets/images/fblogin_icon2.png
+theme/yit/Faq.php
+theme/yit/Logo.php
+theme/plugins/revslider.zip
+theme/templates/header/slider.php
+theme/widgets/text_image.php
+theme/yit/Popup.php
+theme/woocommerce.php
+theme/yit/Contact_Form.php
+theme/templates/shortcodes/faq.php
+theme/templates/shortcodes/image.php
+theme/assets/css/contact_form.css
+theme/assets/css/shortcodes.css
+theme/assets/css/widgets.css
+theme/templates/blog/big-image/css/style.css
+theme/templates/blog/small-ribbon/css/style.css
+theme/templates/portfolios/full-description/css/style.css
+theme/templates/sliders/flexslider/css/slider.css
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+woocommerce/content-single-product.php
+woocommerce/cart/cart-empty.php
+woocommerce/cart/mini-cart.php
+woocommerce/single-product/product-image.php
+woocommerce/single-product/product-thumbnails.php
+woocommerce/loop/outofstock-flash.php
+woocommerce/myaccount
+woocommerce/myaccount/form-login.php
+woocommerce/myaccount/my-account.php
+woocommerce/style.css
+woocommerce/single-product/add-to-cart/simple.php
+woocommerce/images/remove_dark.png
+woocommerce/loop/sale-flash.php
+style.css
+
+
+------------------ VER 1.4.0 ---------------
+Added: Ability to disable the second image on mouse over of products list
+Added: Flexslider ControlNav Option
+Added: Partial Swedish translation by Dan Paulsson
+Added: 'yit_main_nav_depth' filter
+Added: %sku% variable in contact forms
+Added: Theme option for choose to display or hide the category image and description
+Updated: French translation by Follow Media
+Fixed: Missing alt attribute in the images
+Fixed: Start rating position in the shop pages
+Fixed: On/Off options was not working in the Shortcode Manager
+Fixed: From name and email fields in contact forms
+Fixed: Sort by price in Show Products shortcode
+Fixed: Tick image on the checkout fields
+Fixed: Cart dropdown hidden by the Revolution Slider
+Fixed: Products slider width
+Fixed: Image class handles correctly alt and title attribute
+Fixed: Wrapper overflow in stretched and boxed mode
+Fixed: Single product add to cart localization
+Fixed: Share shortcode standard value
+Fixed: Button "Compare" on single product and shop pages was hidden
+Fixed: Topbar menu when not used the default menu
+Fixed: Cart subtotal in the header mini cart
+Fixed: CPT Unlimited show items in descending order
+Fixed: Credit Cart shortcode added in the shortcodes manager
+Fixed: Only selected categories are added to the shortcode when using the shortcodes manager
+Fixed: Blog does not show the post content if the read more is disabled and there's an explicit excerpt
+Fixed: Shop typography and colors options
+Fixed: Text with image widget when there's a link
+Fixed: Posts pages show also the excerpt correctly
+Fixed: Wrong product columns when there's a features tab in the same page
+Fixed: Products price typography option
+Fixed: Search form magnifier icon
+Fixed: Lens icon on header search form
+
+UPDATED
+
+theme/woocommerce.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_page.php
+core/yit/Image.php
+style.css
+theme/templates/sliders/flexslider/config.php
+theme/templates/sliders/flexslider/css/slider.css
+theme/templates/sliders/flexslider/slider.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_General_settings.php
+core/yit/Features_Tab.php
+theme/assets/css/widgets.css
+theme/yit/Submenu/Tabs/Theme_option/Shop_Typography.php
+cache/google_fonts.json
+theme/templates/blog/big-image/markup.php
+theme/templates/blog/big-ribbon/markup.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Colors.php
+theme/templates/blog/small-image/markup.php
+theme/templates/blog/small-ribbon/markup.php
+core/templates/admin/tinymce/lightbox.php
+theme/shortcodes-woocommerce.php
+core/yit/Slider.php
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+core/yit/CPT_Unlimited.php
+woocommerce/style.css
+woocommerce/loop/other-actions.php
+theme/shortcodes.php
+woocommerce/single-product/add-to-cart/grouped.php
+woocommerce/single-product/add-to-cart/quantity.php
+woocommerce/single-product/add-to-cart/simple.php
+woocommerce/single-product/add-to-cart/variable.php
+theme/assets/css/shortcodes.css
+languages/sv_SE.mo
+languages/sv_SE.po
+theme/yit/Contact_Form.php
+theme/templates/shortcodes/show_products.php
+languages/fr_FR.mo
+languages/fr_FR.po
+theme/assets/js/yit
+theme/templates/header/main-navigation.php
+languages/da_DK.mo
+languages/da_DK.po
+languages/default.po
+languages/yit.pot
+room09-child/style.css
+------------------ VER 1.3.0 ---------------
+Added: 'yit_after_woocommerce_product_subcategories' hook
+Added: Remove item button in Header cart
+Added: Open Graph enable button
+Added: Category link and Read More button
+Added: Filter yit_search_mini_text
+Updated: Revolution Plugin to 3.0.8 version (added compatibility to 3.6 WP)
+Updated: Complete French translation by Follow Media
+Fixed: Content margin on shop above 1200px
+Fixed: Contact form warning while submitting emails
+Fixed: Last tweets widget, error on multiple lines
+Fixed: Header cart content after WooCommerce 2.0.13 upgrade
+Fixed: Product terms header image style
+Fixed: Wrong textdomain for translation in woocommerce.php
+Fixed: Typography error in Theme Options > General > Newsletter
+Fixed: Page meta position on boxed layout
+Fixed: Notifier cache
+Fixed: OGP title now use the correct title also if you use SEO options
+Fixed: Line breaks on menu
+Fixed: z-index of submenu
+Fixed: Product categories moving when hovered
+Fixed: Images generated correctly also when on SSL
+Fixed: Minor issues with SSL
+Fixed: Product Actions without product price
+
+UPDATED
+core/lib/yit/Type/Types/Selecticon.php
+core/hooks.php
+core/yit/Css.php
+core/yit/Image.php
+core/assets/css/panel.css
+core/yit/Submenu/Tabs/Theme_option/General_Footer.php
+core/lib/yit/Backup/Backup.php
+core/yit/Notifier.php
+core/templates/admin/post-type-unlimited/settings-contactform.php
+core/assets/css/tinymce.css
+core/assets/js/panel.js
+core/assets/js/post-type-unlimited.js
+core/assets/js/types.js
+core/assets/js/unminified/panel.js
+core/assets/js/unminified/post-type-unlimited.js
+core/assets/js/unminified/types.js
+core/functions-core.php
+core/functions-template.php
+core/lib/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php
+core/lib/yit/Walker/Walker_Nav_Menu.php
+core/lib/yit/Walker/Walker_Nav_Menu_Edit.php
+core/lib/yit/Walker/Walker_Top_Menu.php
+core/templates/admin/metaboxes/types/categories.php
+core/templates/admin/post-type-unlimited/settings-contactform-field.php
+core/templates/admin/post-type-unlimited/settings-featurestab.php
+core/templates/admin/tinymce/lightbox.php
+core/widgets/last_post.php
+core/widgets/more_projects.php
+core/yit/Accordion.php
+core/yit/Portfolio.php
+core/widgets/last_tweets.php
+core/lib/yit/Type/Types/Title.php
+core/yit/Submenu/Tabs/Theme_option/General_Integration.php
+core/yit/Submenu/Tabs/Theme_option/General_Newsletter.php
+images/backgrounds/test.jpg
+js/unminified/jquery.custom.js
+languages/*
+theme/plugins/revslider.zip
+theme/widgets/search_mini.php
+theme/widgets/YIT_Widget_Cart.php
+theme/yit/Contact_Form.php
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/assets/js/jquery.colorbox-min.js
+theme/assets/js/jquery.commonlibraries.js
+theme/assets/js/unminified/yit/jquery.layout.js
+theme/assets/js/yit/jquery.layout.js
+theme/plugins/yith_magnifier/woo-includes/class-wc-dependencies.php
+theme/plugins/yith_magnifier.zip
+theme/plugins/yith_wishlist/class.yith-wcwl-shortcode.php
+theme/plugins/yith_wishlist.zip
+theme/templates/admin/post-type-unlimited/settings-contactform-field.php
+theme/templates/portfolios/filterable/js/jquery.filterable.js
+theme/templates/sliders/flexslider/js/jquery.flexslider-min.js
+theme/templates/sliders/flexslider-elegant/js/jquery.flexslider-min.js
+theme/templates/shortcodes/sitemap.php
+theme/assets/css/shortcodes.css
+theme/widgets/last_tweets.php
+theme/woocommerce.php
+theme/yit/Accordion.php
+woocommerce/cart/mini-cart.php
+woocommerce/images/remove_dark.png
+woocommerce/content-single-product.php
+woocommerce/archive-product.php
+woocommerce/product-compare.php
+woocommerce/style.css
+custom.css
+style.css
+
+------------------ VER 1.2.2 ---------------
+Added: WPML string "shop-products-details-contact-form"
+Added: Feature to get the footer menu on one column with the class column-1
+Added: filter woocommerce_loop_thumbnail_url
+Added: hook woocommerce_simple_product_before_quantity_selector
+Updated: language files
+Fixed: yit_add_to_cart_text filter
+Fixed: arrows hidden in the products sliders
+Fixed: "hide_empty" error
+Fixed: Metabox tabs on cyrillic languages
+Fixed: Blog big image meta were not working correctly
+Fixed: General images size
+
+UPDATED
+core/templates/admin/metaboxes/tab.php
+languages/da_DK.mo
+languages/da_DK.po
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/yit.pot
+room09-child/style.css
+style.css
+theme/assets/css/widgets.css
+theme/templates/blog/big-image/css/style.css
+theme/templates/header/slider.php
+theme/templates/shortcodes/products_categories.php
+theme/templates/shortcodes/products_categories_slider.php
+theme/templates/shortcodes/products_tabs.php
+theme/woocommerce.php
+woocommerce/single-product/add-to-cart/simple.php
+woocommerce/style.css
+wpml-config.xml
+
+------------------ VER 1.2.1 ---------------
+Updated: language file
+Updated: sample data
+Fixed: loading responsive.js and jquery.custom.js in child-theme if exists
+Fixed: white space in black white space, in the product detail page
+Fixed: bookmark icon for [share] shortcode
+Fixed: cropped images even with hard crop deactivated
+Fixed: Image hover size
+Fixed: Product Inquiry tab better management
+Fixed: variations names in single product page dropdowns
+Fixed: notice on contact form headers
+Fixed: multi row footer
+
+UPDATED
+core/assets/css/panel.css
+core/functions-template.php
+core/lib/vendors/mobile-detect/mobile-detect.php
+core/yit/Contact_Form.php
+core/yit/Css.php
+core/yit/Image.php
+core/yit/Panel.php
+js/jquery.custom.js
+js/unminified/jquery.custom.js
+languages/da_DK.mo
+languages/da_DK.po
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/yit.pot
+style.css
+theme/assets/css/shortcodes.css
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/assets/sample-data/room09.gz
+theme/functions-template.php
+theme/templates/footer/footer-big.php
+theme/templates/header/head.php
+theme/templates/header/page-meta.php
+theme/templates/shortcodes/share.php
+theme/woocommerce.php
+theme/yit/Contact_Form.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_details_page.php
+woocommerce/single-product/add-to-cart/variable.php
+woocommerce/style.css
+
+------------------ VER 1.2.0 ---------------
+Added: YITH WooCommerce Ajax Navigation plugin
+Added: YITH Woocommerce Compare plugin
+Added: Partial danish translation
+Added: SSL controls to the footer and logo
+Added: global options for Twitter API
+Updated: Twitter widget and shortcode now work with new API
+Updated: language files
+Updated: improved time loading
+Fixed: IE8 menu (in responsive JS) Fixed: Javascript files in child themes
+Fixed: WPML Languages switcher position in the cart
+Fixed: OGP HTML tag
+Fixed: Home Row typography options in  Typography > Sidebar
+Fixed: Pages breadcrumb
+Fixed: apple touch icons name
+Fixed: "undefined" bug in share link of product detail page
+Removed: Home Row typography options in Colors > Home Row
+
+UPDATED:
+apple-touch-icon-57x.png
+apple-touch-icon-72x.png
+core/assets/css/reset-bootstrap.css
+core/assets/css/reset.css
+core/assets/js/twitter-text.js
+core/assets/js/unminified/twitter-text.js
+core/functions-core.php
+core/functions-template.php
+core/lib/yit/Backup/Backup.php
+core/load.php
+core/templates/shortcodes/images_slider.php
+core/templates/shortcodes/twitter.php
+core/widgets/last_tweets.php
+core/Yit.php
+core/yit/Image.php
+core/yit/Panel.php
+core/yit/Shortcodes.php
+core/yit/Slider.php
+core/yit/Splash.php
+core/yit/Submenu/Tabs/Theme_option/General_Integration.php
+core/yit/Submenu/Theme_option.php
+css/reset.css
+custom.css
+header.php
+js/responsive.js
+languages/da_DK.mo
+languages/da_DK.po
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/yit.pot
+style.css
+theme/assets/css/widgets.css
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/functions-template.php
+theme/functions-theme.php
+theme/hooks.php
+theme/panel/theme-options/misc.php
+theme/panel/theme-options/typography-sidebar.php
+theme/plugins.php
+theme/plugins/yith_magnifier.zip
+theme/plugins/yith_magnifier/class.yith-wcmg-admin.php
+theme/shortcodes-woocommerce.php
+theme/templates/footer/copyright.php
+theme/templates/header/head.php
+theme/templates/header/logo.php
+theme/templates/header/page-meta.php
+theme/templates/loop/page/content.php
+theme/templates/sliders/flash/piecemaker/piecemaker.php
+theme/widgets/last_tweets.php
+theme/woocommerce.php
+theme/yit/Splash.php
+theme/yit/Submenu/Tabs/Theme_option/Colors_Home_row.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_details_page.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_page.php
+woocommerce/loop/other-actions.php
+woocommerce/shop/breadcrumb.php
+woocommerce/shop/page-meta.php
+woocommerce/single-product/product-thumbnails-magnifier.php
+woocommerce/style.css
+
+------------------ VER 1.1.1 ---------------
+Updated: language files
+Fixed: wrong trackbacks and pingbacks shown in posts
+Fixed: javascript error on placeholder with 2.0.11 version of woocommerce
+Fixed: placeholder error on contact forms
+Fixed: image resize on SSL
+Fixed: Topbar menu in multi language
+Fixed: Primary removed when empty
+Fixed: textdomain issue
+Fixed: product category box margin
+Fixed: Scroll disabled on Safari iOS
+Fixed: bug with configuration restore of theme options
+Fixed: Metabox slider error
+Fixed: Translation issue in simple product
+
+UPDATED:
+cache/google_fonts.json
+core/assets/css/responsive.css
+core/functions-template.php
+core/yit/Contact_Form.php
+core/yit/Features_Tab.php
+core/yit/Image.php
+core/yit/Panel.php
+js/jquery.custom.js
+js/unminified/jquery.custom.js
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/yit.pot
+room09-child/style.css
+style.css
+theme/assets/css/contact_form.css
+theme/assets/js/contact.js
+theme/assets/js/unminified/contact.js
+theme/metaboxes.php
+theme/templates/comments/trackbacks.php
+theme/templates/header/head.php
+theme/templates/header/topbar.php
+theme/yit/Contact_Form.php
+woocommerce/single-product/add-to-cart/simple.php
+woocommerce/single-product/meta.php
+woocommerce/style.css
+
+------------------ VER 1.1.0 ---------------
+Added: yit_get_admin_post_type() and fixed page metabox on products
+Updated: Wishlist plugin 1.0.2
+Updated: now checkout multistep support WooCommerce Stripe Gateway plugin
+Fixed: Notice when disable admin panel header
+Fixed: improved compatibility with WooCommerce Name Your Price plugin
+Fixed: Font Awesome images
+Fixed: Fees on review order page
+Removed: Gravity Forms premium plugin
+Removed: WooCommerce Ajax Layered Nav premium plugin
+Removed: WooCommerce Compare Products premium plugin
+Removed: Gravity Forms Product Addons premium plugin
+
+UPDATED:
+core/functions-core.php
+core/templates/admin/metaboxes/types/customtabs.php
+core/templates/admin/tinymce/lightbox.php
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/yit.pot
+style.css
+theme/assets/sample-data/room09.gz
+theme/config.php
+theme/hooks.php
+theme/metaboxes.php
+theme/plugins.php
+theme/plugins/yith_wishlist.zip
+woocommerce/checkout/form-checkout-multistep.php
+woocommerce/checkout/review-order.php
+
+REMOVED:
+theme/plugins/gravityforms.zip
+theme/plugins/woocommerce-ajax-layered-nav.zip
+theme/plugins/woocommerce-compare-products-pro.zip
+theme/plugins/woocommerce-gravityforms-product-addons.zip
+
+------------------ VER 1.0.2 ---------------
+Added: Product category description in category page
+Added: Support for description on blog Categories and Tags archive pages
+Added: OGP Meta tags
+Added: Option to change popup layout border color
+Added: filter 'yit_related_products_title'
+Added: confirm message when you want install the sample data
+Added: social icons for: Mail, Vimeo, Vine
+Added: French languages pack
+Updated: added message 'Add to cart' in Wishlist page
+Fixed: bug in compare popup when filter ajax layered nav
+Fixed: bug in wishlist link when filter ajax layered nav
+Fixed: Tab reviews is always the last tab
+Fixed: Price and title typography options in single product page
+Fixed: Typography of custom product tabs
+Fixed: Options in WooCommerce > Settings > Catalog
+Fixed: Warning on WP_Roles
+Fixed: Breadcrumb fatal error on posts without category
+Fixed: Compare/Wishlist/Share working also on single product page when shop is not enabled.
+Fixed: custom.css file located also in the child theme
+Fixed: Text with Image link in the footer
+Fixed: Translation issue in Recent Comments widget
+Fixed: Terms & Conditions checkbox style in the checkout
+Fixed: Faq filters with utf8 characters
+Fixed: Sale badge everywhere with WooCommerce 2.0.10
+Removed: Show details icon (in classic layout) option
+
+UPDATED
+cache/google_fonts.json
+core/functions-core.php
+core/functions-template.php
+core/hooks.php
+core/templates/shortcodes/members_only.php
+core/widgets/recent_comments.php
+core/yit/CPT_Unlimited.php
+core/yit/Debug.php
+core/yit/Image.php
+functions.php
+header.php
+images/icons/socials-fade-small/socials-fade-small.png
+images/icons/socials-fade/socials-fade.png
+images/icons/socials-small/socials-small.png
+images/icons/socials-square-small/socials-square-small.png
+images/icons/socials-square/socials-square.png
+images/icons/socials/socials.png
+languages/default.po
+languages/fr_FR.mo
+languages/fr_FR.po
+languages/yit.pot
+room09-child/cache/google_fonts.json
+style.css
+theme/assets/css/shortcodes.css
+theme/assets/js/unminified/woocommerce.js
+theme/assets/js/woocommerce.js
+theme/assets/sample-data/room09.gz
+theme/functions-template.php
+theme/plugins/yith_magnifier.zip
+theme/plugins/yith_wishlist.zip
+theme/shortcodes.php
+theme/templates/blog/big-image/css/style.css
+theme/templates/loop/loop.php
+theme/templates/shortcodes/faq.php
+theme/woocommerce.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Colors.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_page.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Typography.php
+woocommerce/archive-product.php
+woocommerce/content-product_cat.php
+woocommerce/content-single-product.php
+woocommerce/loop/other-actions.php
+woocommerce/loop/sale-flash.php
+woocommerce/single-product.php
+woocommerce/single-product/product-image-magnifier.php
+woocommerce/single-product/product-thumbnails-magnifier.php
+woocommerce/single-product/related.php
+woocommerce/single-product/tabs/custom.php
+woocommerce/style.css
+wpml-config.xml
+------------------ VER 1.0.1 ---------------
+Added: option to show/hide the language switcher on mobile version
+Added: Option to change text for the newsletter form on Maintenance screen
+Fixed: Style of WooCommerce message box in the cart
+Fixed: Checkout "<-- Payment button" position
+Fixed: Testimonials archive page
+Fixed: "Balck & White" label
+
+UPDATED
+core/yit/Submenu/Tabs/Maintenance/Maintenance_Newsletter.php
+languages/default.po
+languages/yit.pot
+room09-child/style.css
+style.css
+theme/panel/maintenance/maintenance-newsletter.php
+theme/panel/theme-options/general-header.php
+theme/plugins/yith_wishlist/class.yith-wcwl.php
+theme/plugins/yith_wishlist/yith-wcwl-ajax.php
+theme/templates/header/cart.php
+theme/templates/loop/loop.php
+theme/templates/maintenance/maintenance.php
+theme/yit/Skin.php
+theme/yit/Submenu/Tabs/Theme_option/General_Responsive.php
+theme/yit/Submenu/Tabs/Theme_option/Shop_Products_page.php
+woocommerce/checkout/form-checkout-multistep.php
+woocommerce/checkout/form-place-order.php
+woocommerce/style.css
+
+------------------ VER 1.0.0 ---------------
+Initial Release
