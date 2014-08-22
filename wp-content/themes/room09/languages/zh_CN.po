@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Room09 (By HimWe.Com)\n"
 "POT-Creation-Date: 2014-08-18 11:57+0800\n"
-"PO-Revision-Date: 2014-08-18 13:02+0800\n"
+"PO-Revision-Date: 2014-08-22 01:19+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -724,7 +724,7 @@ msgstr ""
 #: core/yit/Shortcodes.php:374
 #: theme/templates/admin/post-type-unlimited/settings-contactform-field.php:15
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: core/lib/yit/Walker/Walker_Nav_Menu_Edit.php:215
 msgid "Cancel"
@@ -1353,7 +1353,7 @@ msgstr ""
 #: theme/templates/comments/markup.php:74
 #: theme/templates/comments/markup.php:75
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
 #: core/templates/admin/metaboxes/types/customtabs.php:54
 #: core/templates/admin/metaboxes/types/customtabs.php:96
@@ -1597,7 +1597,7 @@ msgstr ""
 #: woocommerce_2.0.x/checkout/form-login.php:65
 #: woocommerce_2.0.x/myaccount/form-login.php:78
 msgid "Email"
-msgstr ""
+msgstr "邮箱"
 
 #: core/templates/admin/post-type-unlimited/settings-contactform-field.php:113
 #: theme/templates/admin/post-type-unlimited/settings-contactform-field.php:105
@@ -1756,7 +1756,7 @@ msgstr ""
 #: core/yit/Submenu/Tabs/Theme_option/Shortcodes_Post.php:106
 #: theme/widgets/recent_posts.php:167
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: core/templates/shortcodes/section-blog.php:64
 #: theme/templates/blog/big-image/markup.php:82
@@ -1981,7 +1981,7 @@ msgstr ""
 #: woocommerce_2.0.x/checkout/form-login.php:53
 #: woocommerce_2.0.x/myaccount/form-login.php:66
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: core/widgets/last_tweets.php:61 theme/widgets/last_tweets.php:61
 msgid "Consumer key"
@@ -3286,7 +3286,7 @@ msgstr ""
 #: core/yit/Shortcodes.php:778
 #: core/yit/Submenu/Tabs/Maintenance/Maintenance_General.php:83
 msgid "Message"
-msgstr ""
+msgstr "咨询内容"
 
 #: core/yit/Shortcodes.php:785
 msgid "Logged user"
@@ -3326,7 +3326,7 @@ msgstr ""
 #: woocommerce_2.0.x/myaccount/form-login.php:26
 #: woocommerce_2.0.x/myaccount/form-login.php:40
 msgid "Login"
-msgstr ""
+msgstr "登录"
 
 #: core/yit/Shortcodes.php:808
 msgid "First name"
@@ -6811,7 +6811,7 @@ msgstr ""
 
 #: theme/functions-theme.php:322
 msgid "Back to top"
-msgstr ""
+msgstr "返回顶端"
 
 #: theme/metaboxes.php:31
 msgid "Background slider"
@@ -7927,7 +7927,7 @@ msgstr ""
 #: theme/templates/blog/big-ribbon/markup.php:57
 #: theme/templates/blog/small-ribbon/markup.php:83
 msgid "Tags: "
-msgstr ""
+msgstr "标签:"
 
 #: theme/templates/comments/comment.php:22
 msgid "Pingback:"
@@ -8043,7 +8043,7 @@ msgstr ""
 
 #: theme/templates/header/login.php:21
 msgid "LOGIN"
-msgstr ""
+msgstr "登录"
 
 #: theme/templates/header/login.php:35 woocommerce/checkout/form-login.php:31
 #: woocommerce/checkout/form-login.php:72
@@ -8054,7 +8054,7 @@ msgstr ""
 #: woocommerce_2.0.x/myaccount/form-login.php:33
 #: woocommerce_2.0.x/myaccount/form-login.php:85
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: theme/templates/header/login.php:42
 msgid "Password Lost and Found"
@@ -8062,7 +8062,7 @@ msgstr ""
 
 #: theme/templates/header/login.php:43
 msgid "lost password?"
-msgstr ""
+msgstr "忘记密码?"
 
 #: theme/templates/header/login.php:56
 msgid "LOGOUT"
@@ -8103,7 +8103,7 @@ msgstr ""
 #: woocommerce_2.0.x/myaccount/form-login.php:60
 #: woocommerce_2.0.x/myaccount/form-login.php:101
 msgid "Register"
-msgstr ""
+msgstr "注册"
 
 #: theme/templates/loop/archives.php:40
 #, php-format
@@ -8130,7 +8130,7 @@ msgstr ""
 
 #: theme/templates/loop/loop.php:74
 msgid "Next &raquo;"
-msgstr ""
+msgstr "下一个 &raquo;"
 
 #: theme/templates/loop/loop.php:75
 msgid "&laquo; Back"
@@ -9308,7 +9308,7 @@ msgstr ""
 
 #: theme/woocommerce.php:284
 msgid "Product Inquiry"
-msgstr ""
+msgstr "商品咨询"
 
 #: theme/woocommerce.php:410
 msgid "Wishlist"
@@ -9665,7 +9665,7 @@ msgstr ""
 #: theme/yit/Submenu/Tabs/Theme_option/General_Sitemap.php:140
 #: theme/yit/Submenu/Tabs/Theme_option/General_Sitemap.php:222
 msgid "Order"
-msgstr ""
+msgstr "的"
 
 #: theme/yit/Submenu/Tabs/Theme_option/General_Sitemap.php:82
 #: theme/yit/Submenu/Tabs/Theme_option/General_Sitemap.php:144
@@ -10751,11 +10751,11 @@ msgstr ""
 #: woocommerce_2.0.x/single-product/add-to-cart/quantity.php:13
 msgctxt "Product quantity input tooltip"
 msgid "Qty"
-msgstr ""
+msgstr "数量"
 
 #: woocommerce/cart/cart.php:126 woocommerce_2.0.x/cart/cart.php:127
 msgid "Coupon"
-msgstr ""
+msgstr "优惠码"
 
 #: woocommerce/cart/cart.php:126 woocommerce_2.0.x/cart/cart.php:127
 msgid "Enter the coupon code"
@@ -10777,7 +10777,7 @@ msgstr "前往收银台 &rarr;"
 
 #: woocommerce/cart/mini-cart.php:39 woocommerce_2.0.x/cart/mini-cart.php:39
 msgid "remove"
-msgstr ""
+msgstr "移除"
 
 #: woocommerce/cart/mini-cart.php:68 woocommerce_2.0.x/cart/mini-cart.php:68
 msgid "Subtotal"
@@ -10813,7 +10813,7 @@ msgstr ""
 #: woocommerce_2.0.x/checkout/form-billing.php:19
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:42
 msgid "Billing Address"
-msgstr ""
+msgstr "账单与配送信息"
 
 #: woocommerce/checkout/form-billing.php:39
 #: woocommerce_2.0.x/checkout/form-billing.php:39
@@ -10831,7 +10831,7 @@ msgstr ""
 #: woocommerce_2.0.x/checkout/form-billing.php:79
 #: woocommerce_2.0.x/checkout/form-shipping.php:33
 msgid "Ship to billing address?"
-msgstr "向此邮箱发送支付信息?"
+msgstr "向此邮箱发送支付信息(必选)"
 
 #: woocommerce/checkout/form-checkout-classic.php:19
 #: woocommerce/checkout/form-checkout-multistep.php:30
@@ -10845,7 +10845,7 @@ msgstr ""
 #: woocommerce_2.0.x/checkout/form-checkout-classic.php:52
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:132
 msgid "Your order"
-msgstr ""
+msgstr "您的订单"
 
 #: woocommerce/checkout/form-checkout-multistep.php:40
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:40
@@ -10857,56 +10857,56 @@ msgstr "支付信息"
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:43
 #: woocommerce_2.0.x/checkout/form-shipping.php:29
 msgid "Shipping Address"
-msgstr ""
+msgstr "配送信息"
 
 #: woocommerce/checkout/form-checkout-multistep.php:44
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:44
 msgid "Payment Method"
-msgstr ""
+msgstr "选择支付方式"
 
 #: woocommerce/checkout/form-checkout-multistep.php:45
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:45
 msgid "Order Review"
-msgstr ""
+msgstr "订单确认"
 
 #: woocommerce/checkout/form-checkout-multistep.php:67
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:67
 msgid "Checkout as Guest"
-msgstr ""
+msgstr "作为游客支付"
 
 #: woocommerce/checkout/form-checkout-multistep.php:90
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:90
 msgid "&larr; Login"
-msgstr ""
+msgstr "&larr; 登录"
 
 #: woocommerce/checkout/form-checkout-multistep.php:93
 #: woocommerce/checkout/form-checkout-multistep.php:107
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:93
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:107
 msgid "Payment Method &rarr;"
-msgstr ""
+msgstr "选择支付方式 &rarr;"
 
 #: woocommerce/checkout/form-checkout-multistep.php:93
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:93
 msgid "Shipping Method &rarr;"
-msgstr ""
+msgstr "配送信息 &rarr;"
 
 #: woocommerce/checkout/form-checkout-multistep.php:106
 #: woocommerce/checkout/form-checkout-multistep.php:121
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:106
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:121
 msgid "&larr; Billing Address"
-msgstr ""
+msgstr "&larr; 账单与配送信息"
 
 #: woocommerce/checkout/form-checkout-multistep.php:121
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:121
 msgid "&larr; Shipping Method"
-msgstr ""
+msgstr "&larr; 配送信息"
 
 #: woocommerce/checkout/form-checkout-multistep.php:122
 #: woocommerce_2.0.x/checkout/form-checkout-multistep.php:122
 msgid "Order Review &rarr;"
-msgstr ""
+msgstr "订单确认 &rarr;"
 
 #: woocommerce/checkout/form-coupon.php:14
 #: woocommerce_2.0.x/checkout/form-coupon.php:12
@@ -10946,40 +10946,40 @@ msgstr ""
 #: woocommerce_2.0.x/checkout/form-login.php:27
 #: woocommerce_2.0.x/myaccount/form-login.php:29
 msgid "Username or email"
-msgstr ""
+msgstr "用户名或邮箱"
 
 #: woocommerce/checkout/form-login.php:40
 #: woocommerce/myaccount/form-login.php:49
 #: woocommerce_2.0.x/checkout/form-login.php:40
 #: woocommerce_2.0.x/myaccount/form-login.php:50
 msgid "Lost Password?"
-msgstr ""
+msgstr "忘记密码?"
 
 #: woocommerce/checkout/form-login.php:47
 #: woocommerce_2.0.x/checkout/form-login.php:47
 #, php-format
 msgid "<span>First time on %s?</span> Create an account."
-msgstr ""
+msgstr "<span>第一次来到 %s?</span> 创建个新帐户."
 
 #: woocommerce/checkout/form-login.php:76
 #: woocommerce_2.0.x/checkout/form-login.php:76
 #: woocommerce_2.0.x/myaccount/form-login.php:89
 msgid "Re-enter password"
-msgstr ""
+msgstr "再次输入密码"
 
 #: woocommerce/checkout/form-pay.php:20
 #: woocommerce/checkout/review-order.php:21
 #: woocommerce_2.0.x/checkout/form-pay.php:18
 #: woocommerce_2.0.x/checkout/review-order.php:20
 msgid "Qty"
-msgstr ""
+msgstr "数量"
 
 #: woocommerce/checkout/form-pay.php:21
 #: woocommerce/checkout/review-order.php:22
 #: woocommerce_2.0.x/checkout/form-pay.php:19
 #: woocommerce_2.0.x/checkout/review-order.php:21
 msgid "Totals"
-msgstr ""
+msgstr "总价"
 
 #: woocommerce/checkout/form-pay.php:78
 #: woocommerce_2.0.x/checkout/form-pay.php:76
@@ -10997,7 +10997,7 @@ msgstr ""
 #: woocommerce/checkout/form-payment.php:20
 #: woocommerce_2.0.x/checkout/form-payment.php:20
 msgid "Payment method"
-msgstr ""
+msgstr "支付方式"
 
 #: woocommerce/checkout/form-payment.php:57
 #: woocommerce_2.0.x/checkout/form-payment.php:57
@@ -11029,13 +11029,13 @@ msgstr ""
 #: woocommerce/checkout/form-place-order.php:12
 #: woocommerce_2.0.x/checkout/form-place-order.php:12
 msgid "&larr; Payment Method"
-msgstr ""
+msgstr "&larr; 选择支付方式"
 
 #: woocommerce/checkout/form-place-order.php:15
 #: woocommerce/checkout/form-place-order.php:18
 #: woocommerce_2.0.x/checkout/form-place-order.php:14
 msgid "Place order"
-msgstr ""
+msgstr "确认支付"
 
 #: woocommerce/checkout/form-place-order.php:25
 #: woocommerce_2.0.x/checkout/form-place-order.php:18
@@ -11049,29 +11049,29 @@ msgstr ""
 
 #: woocommerce/checkout/form-shipping.php:33
 msgid "Ship to different address?"
-msgstr ""
+msgstr "配送到账单地址"
 
 #: woocommerce/checkout/form-shipping.php:63
 #: woocommerce/checkout/review-order.php:125
 #: woocommerce_2.0.x/checkout/form-shipping.php:63
 #: woocommerce_2.0.x/checkout/review-order.php:186
 msgid "Additional Information"
-msgstr ""
+msgstr "附加信息"
 
 #: woocommerce/checkout/review-order.php:28
 #: woocommerce_2.0.x/checkout/review-order.php:27
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "购物车小计"
 
 #: woocommerce/checkout/review-order.php:34
 #: woocommerce/checkout/review-order.php:81
 msgid "Coupon:"
-msgstr ""
+msgstr "优惠码:"
 
 #: woocommerce/checkout/review-order.php:89
 #: woocommerce_2.0.x/checkout/review-order.php:150
 msgid "Order Total"
-msgstr ""
+msgstr "订单总计"
 
 #: woocommerce/checkout/thankyou.php:19
 #: woocommerce_2.0.x/checkout/thankyou.php:18
@@ -11099,27 +11099,27 @@ msgstr ""
 #: woocommerce_2.0.x/checkout/thankyou.php:37
 #: woocommerce_2.0.x/checkout/thankyou.php:98
 msgid "Thank you. Your order has been received."
-msgstr ""
+msgstr "谢谢您. 您的订单已经成功."
 
 #: woocommerce/checkout/thankyou.php:43
 #: woocommerce_2.0.x/checkout/thankyou.php:42
 msgid "Order:"
-msgstr ""
+msgstr "订单编号:"
 
 #: woocommerce/checkout/thankyou.php:44
 #: woocommerce_2.0.x/checkout/thankyou.php:43
 msgid "Date:"
-msgstr ""
+msgstr "日期:"
 
 #: woocommerce/checkout/thankyou.php:45
 #: woocommerce_2.0.x/checkout/thankyou.php:44
 msgid "Total:"
-msgstr ""
+msgstr "总价:"
 
 #: woocommerce/checkout/thankyou.php:47
 #: woocommerce_2.0.x/checkout/thankyou.php:46
 msgid "Payment method:"
-msgstr ""
+msgstr "支付方式:"
 
 #: woocommerce/global/breadcrumb.php:75
 #: woocommerce_2.0.x/shop/breadcrumb.php:75
@@ -11213,6 +11213,8 @@ msgid ""
 "recent orders, manage your shipping and billing addresses and <a href=\"%s"
 "\">change your password</a>."
 msgstr ""
+"您好, <strong>%s</strong>. 在这里您可以查看您的最近订单,管理您的配送和账单信"
+"并且<a href=\"%s\">修改您的密码</a>."
 
 #: woocommerce/myaccount/my-account.php:35
 #: woocommerce_2.0.x/myaccount/my-account.php:35
@@ -11240,12 +11242,12 @@ msgstr ""
 #: woocommerce/single-product/add-to-cart/variable.php:24
 #: woocommerce_2.0.x/single-product/add-to-cart/variable.php:24
 msgid "Choose an option"
-msgstr ""
+msgstr "选择样式"
 
 #: woocommerce/single-product/add-to-cart/variable.php:98
 #: woocommerce_2.0.x/single-product/add-to-cart/variable.php:89
 msgid "Clear selection"
-msgstr ""
+msgstr "取消选择"
 
 #: woocommerce/single-product/meta.php:19
 #: woocommerce_2.0.x/single-product/meta.php:19
@@ -11256,25 +11258,25 @@ msgstr ""
 #: woocommerce_2.0.x/single-product/meta.php:24
 msgid "Category:"
 msgid_plural "Categories:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "分类:"
+msgstr[1] "分类:"
 
 #: woocommerce/single-product/meta.php:29
 #: woocommerce_2.0.x/single-product/meta.php:29
 msgid "Tag:"
 msgid_plural "Tags:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "标签:"
+msgstr[1] "标签:"
 
 #: woocommerce/single-product/nav-links.php:17
 #: woocommerce_2.0.x/single-product/nav-links.php:16
 msgid "Prev"
-msgstr ""
+msgstr "上一个"
 
 #: woocommerce/single-product/nav-links.php:18
 #: woocommerce_2.0.x/single-product/nav-links.php:17
 msgid "Next"
-msgstr ""
+msgstr "下一个"
 
 #: woocommerce/single-product/product-attributes.php:28
 #: woocommerce_2.0.x/single-product/product-attributes.php:28
